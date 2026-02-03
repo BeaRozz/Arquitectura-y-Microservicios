@@ -1,0 +1,35 @@
+# Compiled class files
+**/*.class
+
+# Log files
+*.log
+
+# Package Files
+**/*.jar
+**/*.war
+**/*.ear
+
+# Maven
+# Ignore target directories in services submodule
+/services/target/
+/services/pom.xml.versionsBackup
+/services/rebel.xml
+/services/dependency-reduced-pom.xml
+
+# IDE Specific files
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+# Ignore .vscode directory in services submodule
+/services/.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.swp
+*.bak
+*.swo
