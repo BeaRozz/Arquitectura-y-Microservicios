@@ -9,8 +9,9 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class CreateUserResponse {
+public class UserResponse {
 
     private String message;
-    private CreateUserDTO user;
+    private UserDTO user;
 }
+

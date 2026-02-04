@@ -9,5 +9,7 @@ import com.modelo.services.modules.cows.model.Cows;
 public interface CowsRepository extends MongoRepository<Cows, String> {
     
     Optional<Cows> findById(String id);
+
+    Optional<Cows> findByName(String name);
 }
 

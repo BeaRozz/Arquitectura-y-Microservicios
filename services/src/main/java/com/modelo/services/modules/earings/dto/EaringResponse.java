@@ -1,4 +1,4 @@
-package com.modelo.services.modules.users.dto;
+package com.modelo.services.modules.earings.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,8 +9,9 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class CreateUser {
+public class EaringResponse {
     
-    private String name;
-    private int age;
+    private String message;
+    private EaringDTO earing;
+
 }
